@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="550dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/today_logo"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/today_logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SignUp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button_bg"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        android:layout_above="@+id/Login_btn"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button_bg"
+        android:text="@string/Login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/grey"
+        android:text="@string/powered_by_sda_team1" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+   <style name="Base.Theme.Today" parent="Theme.Material3.Dark">
+       <item name="colorPrimary">@color/black</item>
+
+ </style>
+    <style name="Theme.Today" parent="Base.Theme.Today"/>
+</resources>

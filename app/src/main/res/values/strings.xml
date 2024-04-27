@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Today</string>
+    <string name="register">Register</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Login">Log In</string>
+    <string name="powered_by_sda_team1">Powered by SDA Team1</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordhint">Password</string>
+    <string name="profile">Profile</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_password_recover_here">Forgot Password? Recover here</string>
+    <string name="not_have_account_sign_up">Not have Account ? Sign Up</string>
+    <string name="today_logo">Today Logo</string>
+    <string name="already_have_account_log_in">Already have Account ? Log in</string>
+    <string name="default_web_client_id" />
+    <string name="home">Home</string>
+    <string name="Users">Users</string>
+    <string name="profile_pic">Profile Pic</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone\n</string>
+    <string name="edit_button">Edit_button</string>
+    <string name="person_name">Person Name</string>
+    <string name="person_email">Person Email\n</string>
+    <string name="log_out">log out</string>
+    <string name="search">Search</string>
+</resources>
