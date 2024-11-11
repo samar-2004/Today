@@ -22,8 +22,6 @@ public class HomeFragment extends Fragment {
 
   FirebaseAuth firebaseAuth;
 
-    public HomeFragment() {
-    }
 
 
 
